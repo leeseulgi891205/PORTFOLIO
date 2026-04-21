@@ -1,0 +1,832 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>이슬기 포트폴리오</title>
+  <meta
+    name="description"
+    content="Spring Boot와 Django 기반 프로젝트를 정리한 개발자 포트폴리오"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#home" class="logo">PORTFOLIO</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-inner">
+        <p class="eyebrow">BACKEND / FULLSTACK DEVELOPER</p>
+
+        <h1 class="hero-title">
+          안녕하세요.<br />
+          <span>서비스 흐름과 데이터 구조를 고려해 백엔드를 설계하고 구현하는</span>
+          <span class="hero-intro-line"><span class="hero-name">개발자 이슬기</span>입니다.</span>
+        </h1>
+
+        <p class="hero-desc">
+          Spring Boot와 Django 기반 팀 프로젝트에서
+          OAuth2 로그인, 결제, WebSocket 채팅, 커뮤니티 기능을 직접 구현했습니다.
+          단순 기능 추가보다 서비스 흐름과 도메인 구조를 먼저 정리하고,
+          유지보수하기 쉬운 백엔드 구조로 연결하는 데 집중해왔습니다.
+        </p>
+
+        <div class="hero-links custom-links">
+          <a href="https://github.com/leeseulgi891205" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="#projects">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+
+        <div class="hero-mini-stats">
+          <div class="mini-stat">
+            <strong>2+</strong>
+            <span>팀 프로젝트 완성 경험</span>
+          </div>
+          <div class="mini-stat">
+            <strong>OAuth2 · KakaoPay</strong>
+            <span>인증과 결제 흐름 구현</span>
+          </div>
+          <div class="mini-stat">
+            <strong>WebSocket</strong>
+            <span>실시간 채팅 기능 구현</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section border-top about-section">
+      <div class="container">
+        <div class="about-heading reveal-item">
+          <span class="about-heading-icon" aria-hidden="true">
+            <i class="fa-solid fa-link"></i>
+          </span>
+          <div class="about-heading-text">
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="about-line"></div>
+          </div>
+        </div>
+
+        <div class="about-info-grid">
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-solid fa-user"></i></div>
+            <div class="about-text-box">
+              <h3>이름</h3>
+              <p>이슬기</p>
+            </div>
+          </div>
+
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-solid fa-calendar"></i></div>
+            <div class="about-text-box">
+              <h3>생년월일</h3>
+              <p>1989.12.05</p>
+            </div>
+          </div>
+
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="about-text-box">
+              <h3>위치</h3>
+              <p>서울특별시 관악구</p>
+            </div>
+          </div>
+
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="about-text-box">
+              <h3>연락처</h3>
+              <p>010-4672-7784</p>
+            </div>
+          </div>
+
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="about-text-box">
+              <h3>이메일</h3>
+              <p><a href="mailto:soduwkma@naver.com">soduwkma@naver.com</a></p>
+            </div>
+          </div>
+
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="about-text-box">
+              <h3>학력</h3>
+              <p>세민정보고등학교<br />(웹디자인과)</p>
+            </div>
+          </div>
+
+          <div class="about-info-item reveal-item">
+            <div class="about-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="about-text-box">
+              <h3>깃허브</h3>
+              <p>
+                <a href="https://github.com/leeseulgi891205" target="_blank" rel="noopener noreferrer">
+                  github.com/leeseulgi891205
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section border-top">
+      <div class="container grid-2">
+        <div class="reveal-item">
+          <p class="section-label">ABOUT ME</p>
+          <h2 class="section-title">문제를 구조적으로 정리하고 끝까지 해결하는 개발자</h2>
+        </div>
+        <div class="about-text reveal-item">
+          <p>
+            웹 서비스를 만들 때 단순히 기능 구현에만 그치지 않고,
+            사용자가 어떤 흐름으로 서비스를 이용하는지와
+            코드가 나중에도 유지보수되기 쉬운지 함께 고민합니다.
+          </p>
+          <p>
+            팀 프로젝트를 통해 인증, 게시판, 소셜 로그인, 지도, 챗봇, 결제 등
+            실제 서비스에 가까운 기능들을 구현해보며
+            백엔드 중심의 문제 해결 경험을 쌓았습니다.
+          </p>
+          <p>
+            현재는 프로젝트 경험을 바탕으로
+            더 안정적이고 읽기 좋은 코드를 만드는 방법을 계속 학습하고 있습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section border-top">
+      <div class="container">
+        <p class="section-label reveal-item">SKILLS</p>
+        <h2 class="section-title reveal-item">주로 사용한 기술들</h2>
+
+        <div class="skills-wrap">
+          <div class="skill-group reveal-item">
+            <h3>Backend</h3>
+            <div class="tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>Python</span>
+              <span>Django</span>
+              <span>Spring Security</span>
+              <span>JPA</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal-item">
+            <h3>Frontend</h3>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>JSP</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal-item">
+            <h3>Database / Infra</h3>
+            <div class="tags">
+              <span>MySQL</span>
+              <span>SQLite</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Vercel</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal-item">
+            <h3>Etc</h3>
+            <div class="tags">
+              <span>OAuth</span>
+              <span>REST API</span>
+              <span>WebSocket</span>
+              <span>카카오페이</span>
+              <span>지도 API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section border-top">
+      <div class="container">
+        <p class="section-label reveal-item">PROJECTS</p>
+        <h2 class="section-title reveal-item">팀 프로젝트 기반 서비스 구현 경험</h2>
+
+        <article class="project-card reveal-item">
+          <div class="project-top">
+            <div>
+              <p class="project-index">PROJECT 01</p>
+              <h3 class="project-title">NEXT DEBUT</h3>
+              <p class="project-subtitle">
+                게임형 세계관과 커뮤니티 기능을 결합해, 참여와 체류 시간을 함께 설계한 웹 서비스
+              </p>
+              <div class="project-facts">
+                <span>4인 팀 프로젝트</span>
+                <span>백엔드 중심 구현</span>
+                <span>인증 · 결제 · 실시간 채팅</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/leeseulgi891205/NEXT-DEBUT" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-preview">
+              <div class="project-preview-media">
+                <div class="project-preview-toolbar">
+                  <div class="project-preview-lights" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p class="project-preview-toolbar-title">NEXT DEBUT UI Showcase</p>
+                </div>
+                <a
+                  class="project-slider"
+                  href="./images/01_cover_main_hero.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-slider
+                >
+                  <div class="project-slider-track" data-slider-track>
+                    <div
+                      class="project-slide"
+                      data-slide-title="메인 홈 화면"
+                      data-slide-desc="세계관 소개와 주요 진입 버튼을 한 화면에 배치한 메인 랜딩 화면입니다."
+                      data-slide-tags="랜딩,세계관,CTA"
+                    >
+                      <img src="./images/01_cover_main_hero.png" alt="NEXT DEBUT 메인 화면" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="연습생 인덱스 화면"
+                      data-slide-desc="카드형 UI로 연습생 목록과 능력치를 빠르게 탐색할 수 있도록 구성한 화면입니다."
+                      data-slide-tags="카드 UI,인덱스,능력치"
+                    >
+                      <img src="./images/03_trainee_index_overview.png" alt="NEXT DEBUT 연습생 인덱스 화면" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="인게임 선택 장면"
+                      data-slide-desc="선택지와 멤버 반응을 기반으로 플레이 흐름이 이어지는 게임 핵심 장면입니다."
+                      data-slide-tags="게임 UX,선택지,반응"
+                    >
+                      <img src="./images/04_ingame_choice_scene.png" alt="NEXT DEBUT 인게임 선택 장면" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="팬미팅 지도 게시판"
+                      data-slide-desc="지도 위 위치 정보와 게시글 목록을 한 화면에 연결해 팬미팅 참여 흐름을 설계한 화면입니다."
+                      data-slide-tags="지도,팬미팅,게시판"
+                    >
+                      <img src="./images/19_fanmeeting_board_map.png" alt="NEXT DEBUT 팬미팅 지도 게시판" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="잠금 해제형 연습생 카드"
+                      data-slide-desc="보유 여부와 잠금 상태를 카드 UI로 구분해 수집 구조와 성장 동기를 동시에 보여주는 화면입니다."
+                      data-slide-tags="카드 UI,보유 상태,수집"
+                    >
+                      <img src="./images/24_1_trainee_locked_cards.png" alt="NEXT DEBUT 잠금 연습생 카드 화면" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="상점 메인 화면"
+                      data-slide-desc="아이템 구매 흐름과 코인 보유 상태를 직관적으로 연결한 상점 메인 화면입니다."
+                      data-slide-tags="상점,아이템,코인"
+                    >
+                      <img src="./images/30_shop_main.png" alt="NEXT DEBUT 상점 메인 화면" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="코인 충전 패널"
+                      data-slide-desc="결제 금액 선택과 카카오페이 연결 버튼을 한 흐름으로 정리한 충전 UI입니다."
+                      data-slide-tags="충전,결제 UI,카카오페이"
+                    >
+                      <img src="./images/32_shop_coin_charge.png" alt="NEXT DEBUT 코인 충전 패널" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="카카오페이 결제 흐름"
+                      data-slide-desc="외부 결제 완료 후 다시 서비스 흐름으로 복귀하도록 연결한 카카오페이 안내 화면입니다."
+                      data-slide-tags="카카오페이,결제 흐름,외부 연동"
+                    >
+                      <img src="./images/33_kakaopay_flow.png" alt="NEXT DEBUT 카카오페이 흐름 화면" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="관리자 대시보드"
+                      data-slide-desc="회원, 게시판, 플레이 현황을 한 번에 파악할 수 있도록 정리한 관리자 메인 화면입니다."
+                      data-slide-tags="관리자,대시보드,운영"
+                    >
+                      <img src="./images/51_admin_dashboard_overview.png" alt="NEXT DEBUT 관리자 대시보드" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="관리 KPI 패널"
+                      data-slide-desc="운영 지표와 코인 흐름을 그래프로 시각화해 서비스 상태를 빠르게 읽을 수 있게 구성한 화면입니다."
+                      data-slide-tags="KPI,그래프,운영 지표"
+                    >
+                      <img src="./images/52_admin_kpi_panels.png" alt="NEXT DEBUT 관리자 KPI 패널" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="회원 관리 목록"
+                      data-slide-desc="회원 상태, 가입일, 코인, 연습생 보유 현황을 목록형으로 관리할 수 있게 만든 관리자 화면입니다."
+                      data-slide-tags="회원 관리,목록,운영"
+                    >
+                      <img src="./images/53_admin_member_list.png" alt="NEXT DEBUT 관리자 회원 목록" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="회원 상세 모달"
+                      data-slide-desc="회원 등급, 코인, 보유 연습생 정보를 상세 수정할 수 있도록 구성한 관리자 상세 화면입니다."
+                      data-slide-tags="상세 모달,회원 관리,운영 도구"
+                    >
+                      <img src="./images/54_admin_member_detail_modal.png" alt="NEXT DEBUT 관리자 회원 상세 모달" />
+                    </div>
+                    <div class="project-slide" aria-hidden="true">
+                      <img src="./images/01_cover_main_hero.png" alt="" />
+                    </div>
+                  </div>
+                  <span class="project-slider-badge">View original</span>
+                </a>
+                <div class="project-preview-thumbs">
+                  <button class="project-thumb is-active" type="button" data-slide-go="0">
+                    <img src="./images/01_cover_main_hero.png" alt="" />
+                    <span>메인</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="1">
+                    <img src="./images/03_trainee_index_overview.png" alt="" />
+                    <span>Index</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="2">
+                    <img src="./images/04_ingame_choice_scene.png" alt="" />
+                    <span>Scene</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="3">
+                    <img src="./images/19_fanmeeting_board_map.png" alt="" />
+                    <span>Map</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="4">
+                    <img src="./images/24_1_trainee_locked_cards.png" alt="" />
+                    <span>Cards</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="5">
+                    <img src="./images/30_shop_main.png" alt="" />
+                    <span>Shop</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="6">
+                    <img src="./images/32_shop_coin_charge.png" alt="" />
+                    <span>Charge</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="7">
+                    <img src="./images/33_kakaopay_flow.png" alt="" />
+                    <span>KakaoPay</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="8">
+                    <img src="./images/51_admin_dashboard_overview.png" alt="" />
+                    <span>관리</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="9">
+                    <img src="./images/52_admin_kpi_panels.png" alt="" />
+                    <span>KPI</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="10">
+                    <img src="./images/53_admin_member_list.png" alt="" />
+                    <span>Members</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="11">
+                    <img src="./images/54_admin_member_detail_modal.png" alt="" />
+                    <span>Detail</span>
+                  </button>
+                </div>
+              </div>
+              <div class="project-preview-meta" data-slider-meta>
+                <div class="project-preview-head">
+                  <p class="project-preview-label">SCREEN PREVIEW</p>
+                  <p class="project-preview-count"><span data-slide-index-out>01</span> / 12</p>
+                </div>
+                <p class="project-preview-title" data-slide-title-out>메인 홈 화면</p>
+                <p class="project-preview-desc" data-slide-desc-out>
+                  세계관 소개와 주요 진입 버튼을 한 화면에 배치한 메인 랜딩 화면입니다.
+                </p>
+                <div class="project-preview-tags" data-slide-tags-out>
+                  <span>랜딩</span>
+                  <span>세계관</span>
+                  <span>CTA</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <div class="info-block">
+                <h4>프로젝트 개요</h4>
+                <p>
+                  `NEXT DEBUT`는 연습생 육성 게임, 커뮤니티, 상점, 팬미팅, 결제 기능이 하나의 서비스 흐름으로
+                  이어지는 웹 프로젝트입니다. 여러 도메인이 섞이는 구조에서 기능을 붙이는 것보다
+                  흐름이 끊기지 않도록 계층과 책임을 나누는 것이 더 중요하다고 판단했습니다.
+                </p>
+              </div>
+
+              <div class="info-block">
+                <h4>담당 역할</h4>
+                <p>
+                  백엔드 중심으로 인증, 결제, 실시간 채팅, 커뮤니티 기능 흐름을 구현하고
+                  `controller - service - repository - entity - dto` 구조를 기준으로 책임을 분리했습니다.
+                </p>
+              </div>
+
+              <div class="info-block info-block--highlight">
+                <h4>핵심 기여</h4>
+                <p>
+                  로그인부터 결제, 채팅, 커뮤니티까지 사용자가 실제로 지나가는 흐름을 하나의 서비스 경험으로
+                  이어지게 만든 점이 가장 큰 기여였습니다.
+                </p>
+              </div>
+
+              <div class="info-block">
+                <h4>주요 기능</h4>
+                <ul>
+                  <li>연습생 육성 게임의 선택지 분기, 중간 평가, 엔딩, 랭킹 흐름 구현</li>
+                  <li>OAuth2 로그인, 마이페이지, 프로필 수정 등 계정 관리 기능 구현</li>
+                  <li>WebSocket 기반 실시간 채팅 및 채팅방 기능 구현</li>
+                  <li>가챠, 포토카드, 상점 구매, 아이템 장착 기능 구현</li>
+                  <li>게시판, 댓글, 좋아요, 신고, 팬미팅 참여 흐름 구현</li>
+                  <li>관리자 대시보드와 신고/회원 운영 기능 구현</li>
+                </ul>
+              </div>
+
+              <div class="info-block">
+                <h4>기술 스택</h4>
+                <div class="tags">
+                  <span>Java 21</span>
+                  <span>Spring Boot</span>
+                  <span>Gradle</span>
+                  <span>JSP</span>
+                  <span>MySQL</span>
+                  <span>OAuth</span>
+                  <span>H2</span>
+                  <span>KakaoPay</span>
+                </div>
+              </div>
+
+              <div class="info-block">
+                <h4>트러블슈팅</h4>
+                <ul>
+                  <li>인증, 결제, 채팅처럼 상태가 다른 기능이 섞이면서 예외 흐름이 복잡해져 서비스 책임과 세션 흐름을 분리해 안정성을 높였습니다.</li>
+                  <li>게임 데이터와 커뮤니티 데이터가 한 프로젝트에 함께 존재해 DTO와 서비스 계층을 나누고 도메인 경계를 더 명확히 정리했습니다.</li>
+                  <li>기능 수가 많아질수록 화면 수정보다 구조 정리가 먼저라는 점을 체감했고, 이후에는 확장 가능한 백엔드 구조를 우선해 구현했습니다.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-item">
+          <div class="project-top">
+            <div>
+              <p class="project-index">PROJECT 02</p>
+              <h3 class="project-title">Moms Log</h3>
+              <p class="project-subtitle">
+                육아 정보 탐색, 동네 기반 소통, 감정 교류를 한 플랫폼 안에서 연결한 커뮤니티 서비스
+              </p>
+              <div class="project-facts">
+                <span>팀 프로젝트</span>
+                <span>Django 기반 플랫폼 구축</span>
+                <span>커뮤니티 · 위치 기반 기능</span>
+              </div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/leeseulgi891205/Moms-Log" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-preview">
+              <div class="project-preview-media">
+                <div class="project-preview-toolbar">
+                  <div class="project-preview-lights" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p class="project-preview-toolbar-title">MOMS LOG UI Showcase</p>
+                </div>
+                <a
+                  class="project-slider"
+                  href="./images/momslog-main.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-slider
+                >
+                  <div class="project-slider-track" data-slider-track>
+                    <div
+                      class="project-slide"
+                      data-slide-title="메인 커뮤니티 홈"
+                      data-slide-desc="메인 홈 화면에서 육아 정보, 커뮤니티 진입, 로그인 유도, 캘린더 위젯을 한 흐름으로 보여줍니다."
+                      data-slide-tags="메인,커뮤니티,캘린더"
+                    >
+                      <img src="./images/momslog-main.png" alt="Moms Log main home screen" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="커뮤니티 유도 모달"
+                      data-slide-desc="실제 이용 후기 중심의 모달로 사용자가 메인 화면에서 커뮤니티 핵심 경험으로 자연스럽게 이동하도록 구성했습니다."
+                      data-slide-tags="모달,커뮤니티,유도"
+                    >
+                      <img src="./images/momslog-main-modal.png" alt="Moms Log community modal" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="실시간 채팅방"
+                      data-slide-desc="카테고리별 실시간 채팅방으로 일상적인 육아 고민과 감정 공유가 가볍게 이어지도록 구성했습니다."
+                      data-slide-tags="채팅,실시간,채널"
+                    >
+                      <img src="./images/momslog-chat-room.png" alt="Moms Log chat room" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="AI 챗봇 위젯"
+                      data-slide-desc="플로팅 AI 챗봇이 서비스 안에서 육아 질문을 빠르게 물어볼 수 있는 진입점을 제공합니다."
+                      data-slide-tags="AI,챗봇,상담"
+                    >
+                      <img src="./images/momslog-chatbot.png" alt="Moms Log chatbot widget" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="관리자 대시보드"
+                      data-slide-desc="커스텀 관리자 대시보드에서 가입자, 게시글, 신고, 마켓 상태를 KPI 패널로 한눈에 확인할 수 있습니다."
+                      data-slide-tags="관리자,대시보드,KPI"
+                    >
+                      <img src="./images/momslog-admin-dashboard.png" alt="Moms Log admin dashboard" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="관리 데이터 테이블"
+                      data-slide-desc="관리 테이블에서 레시피 게시글과 동네마켓 신고 내역을 빠르게 검토할 수 있도록 최근 데이터와 처리 상태를 정리했습니다."
+                      data-slide-tags="관리자,테이블,운영"
+                    >
+                      <img src="./images/momslog-admin-table.png" alt="Moms Log admin tables" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="Django 관리자 페이지"
+                      data-slide-desc="기본 Django 관리자 페이지도 함께 사용해 전반적인 콘텐츠 관리와 계정 운영을 보조하도록 구성했습니다."
+                      data-slide-tags="Django,관리자,운영"
+                    >
+                      <img src="./images/momslog-admin-django.png" alt="Moms Log Django admin" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="지도 기반 동네마켓"
+                      data-slide-desc="동네마켓 화면에서 상품 목록과 지도 기반 거래 장소 탐색을 연결해 지역 거래 흐름을 직관적으로 만들었습니다."
+                      data-slide-tags="동네마켓,지도,위치"
+                    >
+                      <img src="./images/momslog-market.png" alt="Moms Log local market map" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="발달 영역 레이더 차트"
+                      data-slide-desc="레이더 차트로 인지, 언어, 신체, 사회성 발달 균형을 한눈에 파악할 수 있도록 시각화했습니다."
+                      data-slide-tags="차트,발달,레이더"
+                    >
+                      <img src="./images/momslog-radar-chart.png" alt="Moms Log radar chart" />
+                    </div>
+                    <div
+                      class="project-slide"
+                      data-slide-title="월령별 성장 그래프"
+                      data-slide-desc="월령별 그래프 화면에서 색상 구분과 요약 카드를 통해 발달 추이를 시간 흐름에 따라 확인할 수 있습니다."
+                      data-slide-tags="성장,추이,분석"
+                    >
+                      <img src="./images/momslog-growth-chart.png" alt="Moms Log growth chart" />
+                    </div>
+                    <div class="project-slide" aria-hidden="true">
+                      <img src="./images/momslog-main.png" alt="" />
+                    </div>
+                  </div>
+                  <span class="project-slider-badge">View original</span>
+                </a>
+                <div class="project-preview-thumbs">
+                  <button class="project-thumb is-active" type="button" data-slide-go="0">
+                    <img src="./images/momslog-main.png" alt="" />
+                    <span>메인</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="1">
+                    <img src="./images/momslog-main-modal.png" alt="" />
+                    <span>모달</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="2">
+                    <img src="./images/momslog-chat-room.png" alt="" />
+                    <span>채팅</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="3">
+                    <img src="./images/momslog-chatbot.png" alt="" />
+                    <span>챗봇</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="4">
+                    <img src="./images/momslog-admin-dashboard.png" alt="" />
+                    <span>대시</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="5">
+                    <img src="./images/momslog-admin-table.png" alt="" />
+                    <span>관리</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="6">
+                    <img src="./images/momslog-admin-django.png" alt="" />
+                    <span>Django</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="7">
+                    <img src="./images/momslog-market.png" alt="" />
+                    <span>마켓</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="8">
+                    <img src="./images/momslog-radar-chart.png" alt="" />
+                    <span>레이더</span>
+                  </button>
+                  <button class="project-thumb" type="button" data-slide-go="9">
+                    <img src="./images/momslog-growth-chart.png" alt="" />
+                    <span>성장</span>
+                  </button>
+                </div>
+              </div>
+              <div class="project-preview-meta" data-slider-meta>
+                <div class="project-preview-head">
+                  <p class="project-preview-label">SCREEN PREVIEW</p>
+                  <p class="project-preview-count"><span data-slide-index-out>01</span> / 10</p>
+                </div>
+                <p class="project-preview-title" data-slide-title-out>메인 커뮤니티 홈</p>
+                <p class="project-preview-desc" data-slide-desc-out>
+                  메인 홈 화면에서 육아 정보, 커뮤니티 진입, 로그인 유도, 캘린더 위젯을 한 흐름으로 보여줍니다.
+                </p>
+                <div class="project-preview-tags" data-slide-tags-out>
+                  <span>메인</span>
+                  <span>커뮤니티</span>
+                  <span>캘린더</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="info-block">
+                <h4>프로젝트 개요</h4>
+                <p>
+                  `Moms Log`는 육아 정보 탐색, 공감형 커뮤니티, 지역 기반 소통을 하나의 플랫폼 안에서
+                  연결한 서비스입니다. 정보성 콘텐츠와 커뮤니티 기능이 동시에 커지는 구조라서,
+                  사용자가 원하는 정보에 빠르게 도달할 수 있는 데이터 구조와 카테고리 설계가 중요했습니다.
+                </p>
+              </div>
+
+              <div class="info-block">
+                <h4>담당 역할</h4>
+                <p>
+                  Django 기반 커뮤니티 기능과 정보형 콘텐츠 구조를 중심으로
+                  게시판, 반응, 위치 기반 요소, 실시간 소통 기능이 확장 가능한 형태로 연결되도록 구현했습니다.
+                </p>
+              </div>
+
+              <div class="info-block info-block--highlight">
+                <h4>핵심 기여</h4>
+                <p>
+                  정보 탐색과 커뮤니티 이용 흐름이 따로 놀지 않도록 게시판, 카테고리, 위치 정보 구조를 하나의 사용자 경험으로 정리했습니다.
+                </p>
+              </div>
+
+              <div class="info-block">
+                <h4>주요 기능</h4>
+                <ul>
+                  <li>회원가입, 로그인, 프로필 관리, 포인트 및 등급 관리 기능 구현</li>
+                  <li>자유게시판, 공감형 반응, 댓글, 첨부파일, 지역 기반 게시글 분류 기능 구현</li>
+                  <li>월령/발달 정보 중심의 육아 정보 게시판 구조 설계</li>
+                  <li>레시피 공유와 단계별 조리 콘텐츠 UI/데이터 구조 구현</li>
+                  <li>카카오 지도 기반 지역 정보와 위치 좌표 활용 기능 구현</li>
+                  <li>챗봇 및 추천형 기능으로 확장 가능한 구조 경험</li>
+                </ul>
+              </div>
+
+              <div class="info-block">
+                <h4>기술 스택</h4>
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Django</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>SQLite</span>
+                  <span>KakaoMap</span>
+                </div>
+              </div>
+
+              <div class="info-block">
+                <h4>트러블슈팅/배운 점</h4>
+                <ul>
+                  <li>게시판 성격이 다양해질수록 모델과 카테고리 구조가 복잡해져, 탐색 흐름이 무너지지 않도록 기능별 데이터 구조를 더 명확히 나눴습니다.</li>
+                  <li>실시간 채팅은 연결 자체보다 운영 정책과 예외 상황 설계가 더 중요하다는 점을 경험했고, 기능보다 사용 시나리오를 먼저 보게 되었습니다.</li>
+                  <li>설정 파일, 데이터 파일, 민감정보가 함께 섞이지 않도록 분리하면서 배포와 유지보수 관점의 구조 설계 중요성을 체감했습니다.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section border-top">
+      <div class="container grid-2">
+        <div class="reveal-item">
+          <p class="section-label">WHAT I LEARNED</p>
+          <h2 class="section-title">프로젝트를 하며<br />중요하게 느낀 것</h2>
+        </div>
+        <div class="about-text reveal-item">
+          <p>
+            프로젝트를 진행하며 단순한 기능 구현보다
+            예외 상황을 어떻게 처리하고, 설정을 어떻게 분리하며,
+            협업 과정에서 충돌을 줄일 수 있는 구조를 설계하는 것이
+            서비스의 안정성과 유지보수성을 결정짓는 핵심이라는 점을 체감했습니다.
+          </p>
+          <p>
+            특히 기능이 늘어날수록 코드와 설정이 뒤섞이면서
+            관리와 확장이 어려워지는 문제를 경험했고,
+            이를 통해 역할과 책임을 분리하는 구조의 중요성을 이해하게 되었습니다.
+          </p>
+          <p>
+            이 경험을 통해 이후 개발에서는
+            기능 구현 이전에 구조와 흐름을 먼저 정리하고,
+            유지보수를 고려한 설계를 기준으로 삼게 되었습니다.
+          </p>
+          <p>
+            또한 포트폴리오를 정리하며
+            기능을 나열하는 것보다 문제를 어떻게 정의하고 해결했는지,
+            그리고 그 과정에서 어떤 판단을 했는지를 드러내는 것이
+            개발자의 역량을 더 잘 전달한다는 것을 깨달았습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section border-top">
+      <div class="container contact-box reveal-item">
+        <p class="section-label">CONTACT</p>
+        <h2 class="section-title">함께 일할 기회를 기다리고 있습니다</h2>
+        <p class="contact-desc">
+          개발자로 성장하며 더 나은 서비스를 만드는 데 기여하고 싶습니다.<br />
+          채용 관련 문의는 언제든지 편하게 연락 부탁드립니다.
+        </p>
+
+        <div class="contact-links">
+          <a href="https://github.com/leeseulgi891205" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="mailto:soduwkma@naver.com?subject=포트폴리오를 보고 연락드립니다">
+            <i class="fa-solid fa-envelope"></i>
+            <span>soduwkma@naver.com</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Lee Seulgi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
